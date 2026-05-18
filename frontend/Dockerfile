@@ -16,6 +16,9 @@ ARG CACHE_BUST
 RUN mkdir -p configuration
 COPY ./configuration/*.json configuration
 RUN npx --legacy-peer-deps openmrs@${APP_SHELL_VERSION:-next} assemble --manifest --mode config --config spa-assemble-config.json --config-file configuration/*.json --target ./spa
+# Workaround: @openmrs/esm-styleguide declares @react-aria/utils as a peer dep which --legacy-peer-deps skips, breaking the build. Install it into the npx cache dir that webpack resolves from.
+RUN NPX_DIR=$(find /root/.npm/_npx -maxdepth 1 -type d ! -path /root/.npm/_npx | head -1) && \
+    cd "$NPX_DIR" && npm install --legacy-peer-deps @react-aria/utils
 RUN npx --legacy-peer-deps openmrs@${APP_SHELL_VERSION:-next} build --build-config spa-build-config.json --target ./spa
 RUN if [ ! -f ./spa/index.html ]; then echo 'Build failed. Please check the logs above for details. This may have happened because of an update to a library that OpenMRS depends on.'; ls -al ./spa; exit 1; fi
 
