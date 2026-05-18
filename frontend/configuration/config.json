@@ -90,6 +90,22 @@
   "@openmrs/esm-dispensing-app": {
     "completeOrderWithThisDispense": true
   },
+  "@openmrs/esm-patient-orders-app": {
+    "orderTypes": [
+      {
+        "orderTypeUuid": "a2b3c4d5-1111-4aaa-bbbb-111111111111",
+        "label": "Radiology orders",
+        "icon": "omrs-icon-image-medical",
+        "orderableConceptSets": ["39c6b411-12c7-43f7-afb6-d90c34db6dba"]
+      },
+      {
+        "orderTypeUuid": "c3d4e5f6-2222-4aaa-bbbb-222222222222",
+        "label": "Procedure orders",
+        "icon": "omrs-icon-procedure-order",
+        "orderableConceptSets": ["1a8ce1bd-f6ac-46ef-90a0-fe59bd57cfb5"]
+      }
+    ]
+  },
   "@openmrs/esm-appointments-app": {
       "appointmentTypes": [
         "Scheduled"

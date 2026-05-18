@@ -10,9 +10,22 @@ services:
   frontend:
     build:
       context: ./frontend
+      args:
+        APP_SHELL_VERSION: "9.0.2"
+    volumes:
+      - "./frontend-overrides/openmrs-config.json:/usr/share/nginx/html/openmrs-config.json:ro"
+      - "./frontend-overrides/importmap.json:/usr/share/nginx/html/importmap.json:ro"
+      - "./frontend-overrides/routes.registry.json:/usr/share/nginx/html/routes.registry.json:ro"
+      - "./frontend-overrides/modules/kenyaemr-esm-procedure-orders-app-4.0.8-pre.53:/usr/share/nginx/html/kenyaemr-esm-procedure-orders-app-4.0.8-pre.53:ro"
+      - "./frontend-overrides/modules/kenyaemr-esm-imaging-orders-app-4.0.8-pre.53:/usr/share/nginx/html/kenyaemr-esm-imaging-orders-app-4.0.8-pre.53:ro"
+      - "./frontend-overrides/modules/kenyaemr-esm-medical-supply-orders-app-4.0.8-pre.53:/usr/share/nginx/html/kenyaemr-esm-medical-supply-orders-app-4.0.8-pre.53:ro"
 
   backend:
     build:
       secrets:
         - m2settings
       context: .
+    volumes:
+      - "../openmrs-content-path-drc/Base Content Package/configuration/backend_configuration/ordertypes:/openmrs/distribution/openmrs_config/ordertypes/path.drc:ro"
+      - "../openmrs-content-path-drc/Base Content Package/configuration/backend_configuration/concepts:/openmrs/distribution/openmrs_config/concepts/path.drc:ro"
+      - "./backend-modules/orderexpansion-1.0.1-SNAPSHOT.omod:/openmrs/distribution/openmrs_modules/orderexpansion-1.0.1-SNAPSHOT.omod:ro"

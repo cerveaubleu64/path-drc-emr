@@ -1,0 +1,3311 @@
+{
+  "chunks": [
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 31868,
+      "sizes": {
+        "javascript": 31868
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1074.js"
+      ],
+      "auxiliaryFiles": [
+        "1074.js.map"
+      ],
+      "hash": "57db1eff6a996df4",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 136743,
+      "sizes": {
+        "javascript": 136743
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1084.js"
+      ],
+      "auxiliaryFiles": [
+        "1084.js.map"
+      ],
+      "hash": "46e174f9ae34f33b",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 44200,
+      "sizes": {
+        "javascript": 44200
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1185.js"
+      ],
+      "auxiliaryFiles": [
+        "1185.js.map"
+      ],
+      "hash": "6b6ef1b3cd819108",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 100510,
+      "sizes": {
+        "javascript": 100510
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "12.js"
+      ],
+      "auxiliaryFiles": [
+        "12.js.map"
+      ],
+      "hash": "e7939a87b9795247",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 138998,
+      "sizes": {
+        "javascript": 138998
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1231.js"
+      ],
+      "auxiliaryFiles": [
+        "1231.js.map"
+      ],
+      "hash": "e86e859379caf12c",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 238890,
+      "sizes": {
+        "javascript": 238890
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1311.js"
+      ],
+      "auxiliaryFiles": [
+        "1311.js.map"
+      ],
+      "hash": "59d451fe3bb37966",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 21047,
+      "sizes": {
+        "javascript": 21047
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1469.js"
+      ],
+      "auxiliaryFiles": [
+        "1469.js.map"
+      ],
+      "hash": "cde1103239682591",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 81878,
+      "sizes": {
+        "javascript": 81878
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1506.js"
+      ],
+      "auxiliaryFiles": [
+        "1506.js.map"
+      ],
+      "hash": "9a36b8caa36b3200",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "3993442b8047bbea",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 185319,
+      "sizes": {
+        "javascript": 185319
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1772.js"
+      ],
+      "auxiliaryFiles": [
+        "1772.js.map"
+      ],
+      "hash": "d681ce1ff06db9ee",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 2021,
+      "sizes": {
+        "javascript": 2021
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1878.js"
+      ],
+      "auxiliaryFiles": [
+        "1878.js.map"
+      ],
+      "hash": "7133d858518daeab",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 167072,
+      "sizes": {
+        "javascript": 167072
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1884.js"
+      ],
+      "auxiliaryFiles": [
+        "1884.js.map"
+      ],
+      "hash": "1fcb658fd08af0bd",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 20660,
+      "sizes": {
+        "javascript": 20660
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1889.js"
+      ],
+      "auxiliaryFiles": [
+        "1889.js.map"
+      ],
+      "hash": "98ef4874a3a5186e",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 137434,
+      "sizes": {
+        "javascript": 137434
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1972.js"
+      ],
+      "auxiliaryFiles": [
+        "1972.js.map"
+      ],
+      "hash": "af278f456cd164d9",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 39968,
+      "sizes": {
+        "javascript": 39968
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "1990.js"
+      ],
+      "auxiliaryFiles": [
+        "1990.js.map"
+      ],
+      "hash": "31737d995a6226d7",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 158573,
+      "sizes": {
+        "javascript": 158573
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2017.js"
+      ],
+      "auxiliaryFiles": [
+        "2017.js.map"
+      ],
+      "hash": "377323864fbbb28b",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 35870,
+      "sizes": {
+        "javascript": 35870
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2140.js"
+      ],
+      "auxiliaryFiles": [
+        "2140.js.map"
+      ],
+      "hash": "4ee3dba5e37d763c",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 35192,
+      "sizes": {
+        "javascript": 35192
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2153.js"
+      ],
+      "auxiliaryFiles": [
+        "2153.js.map"
+      ],
+      "hash": "1cd547842e7bb734",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 198658,
+      "sizes": {
+        "javascript": 198658
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "216.js"
+      ],
+      "auxiliaryFiles": [
+        "216.js.map"
+      ],
+      "hash": "c5a29c36d29ea10c",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "54fb00095c1e3814",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 33300,
+      "sizes": {
+        "javascript": 33300
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2426.js"
+      ],
+      "auxiliaryFiles": [
+        "2426.js.map"
+      ],
+      "hash": "395abf56f00d12f2",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 103392,
+      "sizes": {
+        "javascript": 103392
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "248.js"
+      ],
+      "auxiliaryFiles": [
+        "248.js.map"
+      ],
+      "hash": "a5d1b77be3f4c474",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 10829,
+      "sizes": {
+        "javascript": 10829
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2516.js"
+      ],
+      "auxiliaryFiles": [
+        "2516.js.map"
+      ],
+      "hash": "247a5f97a092ec6e",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 157188,
+      "sizes": {
+        "javascript": 157188
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "257.js"
+      ],
+      "auxiliaryFiles": [
+        "257.js.map"
+      ],
+      "hash": "6479e0ae08e6646e",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 142659,
+      "sizes": {
+        "javascript": 142659
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2572.js"
+      ],
+      "auxiliaryFiles": [
+        "2572.js.map"
+      ],
+      "hash": "41d69a7c812244d5",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 366210,
+      "sizes": {
+        "javascript": 366210
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2625.js"
+      ],
+      "auxiliaryFiles": [
+        "2625.js.map"
+      ],
+      "hash": "365ff7b17c515f16",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 200982,
+      "sizes": {
+        "expose": 42,
+        "javascript": 200604,
+        "runtime": 25059,
+        "share-init": 336
+      },
+      "names": [
+        "@kenyaemr/esm-procedure-orders-app"
+      ],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app"
+      ],
+      "files": [
+        "kenyaemr-esm-procedure-orders-app.js"
+      ],
+      "auxiliaryFiles": [
+        "kenyaemr-esm-procedure-orders-app.js.map"
+      ],
+      "hash": "40cd9643ad458d46",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 112317,
+      "sizes": {
+        "javascript": 112317
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2685.js"
+      ],
+      "auxiliaryFiles": [
+        "2685.js.map"
+      ],
+      "hash": "aa85eb0930577c1a",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 136718,
+      "sizes": {
+        "javascript": 136718
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2891.js"
+      ],
+      "auxiliaryFiles": [
+        "2891.js.map"
+      ],
+      "hash": "b9c3bc46280a259b",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 127928,
+      "sizes": {
+        "javascript": 127928
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "2948.js"
+      ],
+      "auxiliaryFiles": [
+        "2948.js.map"
+      ],
+      "hash": "31076d8332274caa",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 137481,
+      "sizes": {
+        "javascript": 137481
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3089.js"
+      ],
+      "auxiliaryFiles": [
+        "3089.js.map"
+      ],
+      "hash": "e103dae944b9859c",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 25562,
+      "sizes": {
+        "javascript": 25562
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3163.js"
+      ],
+      "auxiliaryFiles": [
+        "3163.js.map"
+      ],
+      "hash": "2cd403c25d52d4c7",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 124097,
+      "sizes": {
+        "javascript": 124097
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3190.js"
+      ],
+      "auxiliaryFiles": [
+        "3190.js.map"
+      ],
+      "hash": "b51293abeb33273a",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 156464,
+      "sizes": {
+        "javascript": 156464
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3314.js"
+      ],
+      "auxiliaryFiles": [
+        "3314.js.map"
+      ],
+      "hash": "102db60e99abafb5",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 8491,
+      "sizes": {
+        "javascript": 8491
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3442.js"
+      ],
+      "auxiliaryFiles": [
+        "3442.js.map"
+      ],
+      "hash": "598ce20ae7e3b96e",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 143518,
+      "sizes": {
+        "javascript": 143518
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3548.js"
+      ],
+      "auxiliaryFiles": [
+        "3548.js.map"
+      ],
+      "hash": "f33db57762fd445f",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 14472,
+      "sizes": {
+        "javascript": 14472
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3571.js"
+      ],
+      "auxiliaryFiles": [
+        "3571.js.map"
+      ],
+      "hash": "e942f9de8f4d96eb",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 29413,
+      "sizes": {
+        "javascript": 29413
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3686.js"
+      ],
+      "auxiliaryFiles": [
+        "3686.js.map"
+      ],
+      "hash": "6435d3a94fd87be5",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 38630,
+      "sizes": {
+        "javascript": 38630
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3691.js"
+      ],
+      "auxiliaryFiles": [
+        "3691.js.map"
+      ],
+      "hash": "8636609fa3f81c5b",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 44417,
+      "sizes": {
+        "javascript": 44417
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3710.js"
+      ],
+      "auxiliaryFiles": [
+        "3710.js.map"
+      ],
+      "hash": "baca660724a22fcf",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 61063,
+      "sizes": {
+        "javascript": 61063
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3906.js"
+      ],
+      "auxiliaryFiles": [
+        "3906.js.map"
+      ],
+      "hash": "5c3169bf5b9d39bc",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 110391,
+      "sizes": {
+        "javascript": 110391
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "3963.js"
+      ],
+      "auxiliaryFiles": [
+        "3963.js.map"
+      ],
+      "hash": "b6aecedf3419b57d",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 212494,
+      "sizes": {
+        "javascript": 212494
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "405.js"
+      ],
+      "auxiliaryFiles": [
+        "405.js.map"
+      ],
+      "hash": "aabb3f8d1f3156c2",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 32838,
+      "sizes": {
+        "javascript": 32838
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4225.js"
+      ],
+      "auxiliaryFiles": [
+        "4225.js.map"
+      ],
+      "hash": "09e82972db50c24e",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 144426,
+      "sizes": {
+        "javascript": 144426
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4324.js"
+      ],
+      "auxiliaryFiles": [
+        "4324.js.map"
+      ],
+      "hash": "b2f67a209d203d83",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 160359,
+      "sizes": {
+        "javascript": 160359
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4337.js"
+      ],
+      "auxiliaryFiles": [
+        "4337.js.map"
+      ],
+      "hash": "ac714ce1d5d50e79",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 1790,
+      "sizes": {
+        "javascript": 1790
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4422.js"
+      ],
+      "auxiliaryFiles": [
+        "4422.js.map"
+      ],
+      "hash": "3433b47ec57522cd",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 33854,
+      "sizes": {
+        "javascript": 33854
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app"
+      ],
+      "files": [
+        "4519.js"
+      ],
+      "auxiliaryFiles": [
+        "4519.js.map"
+      ],
+      "hash": "a607f062076e6e8f",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 61716,
+      "sizes": {
+        "javascript": 61716
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4521.js"
+      ],
+      "auxiliaryFiles": [
+        "4521.js.map"
+      ],
+      "hash": "0672c9e187188242",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 71808,
+      "sizes": {
+        "javascript": 71808
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4735.js"
+      ],
+      "auxiliaryFiles": [
+        "4735.js.map"
+      ],
+      "hash": "49770ad4bfab5aca",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 7120,
+      "sizes": {
+        "javascript": 7120
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4744.js"
+      ],
+      "auxiliaryFiles": [
+        "4744.js.map"
+      ],
+      "hash": "ab77b0ea5be0ea5f",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 146227,
+      "sizes": {
+        "javascript": 146227
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4858.js"
+      ],
+      "auxiliaryFiles": [
+        "4858.js.map"
+      ],
+      "hash": "e6d02709fc831181",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 132777,
+      "sizes": {
+        "javascript": 132777
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "487.js"
+      ],
+      "auxiliaryFiles": [
+        "487.js.map"
+      ],
+      "hash": "f5f41cefb51229e2",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 540,
+      "sizes": {
+        "javascript": 540
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "4970.js"
+      ],
+      "auxiliaryFiles": [
+        "4970.js.map"
+      ],
+      "hash": "5626073a91732f5d",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 139783,
+      "sizes": {
+        "javascript": 139783
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5036.js"
+      ],
+      "auxiliaryFiles": [
+        "5036.js.map"
+      ],
+      "hash": "bba984b29af3b6da",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 31855,
+      "sizes": {
+        "javascript": 31855
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5113.js"
+      ],
+      "auxiliaryFiles": [
+        "5113.js.map"
+      ],
+      "hash": "9e0388034ff52550",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 36037,
+      "sizes": {
+        "javascript": 36037
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5202.js"
+      ],
+      "auxiliaryFiles": [
+        "5202.js.map"
+      ],
+      "hash": "be78925795223d21",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 166239,
+      "sizes": {
+        "javascript": 166239
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5211.js"
+      ],
+      "auxiliaryFiles": [
+        "5211.js.map"
+      ],
+      "hash": "15021feebca0f559",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 121517,
+      "sizes": {
+        "javascript": 121517
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5401.js"
+      ],
+      "auxiliaryFiles": [
+        "5401.js.map"
+      ],
+      "hash": "67678aa485c45b56",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 126,
+      "sizes": {
+        "consume-shared": 126
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "f565097a536cea39",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 11340,
+      "sizes": {
+        "javascript": 11340
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5490.js"
+      ],
+      "auxiliaryFiles": [
+        "5490.js.map"
+      ],
+      "hash": "ef4c334fd90aeb45",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 33718,
+      "sizes": {
+        "javascript": 33718
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5592.js"
+      ],
+      "auxiliaryFiles": [
+        "5592.js.map"
+      ],
+      "hash": "a336e07de387c4e8",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 49872,
+      "sizes": {
+        "javascript": 49872
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5635.js"
+      ],
+      "auxiliaryFiles": [
+        "5635.js.map"
+      ],
+      "hash": "4b30c11d68eabad0",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 28276,
+      "sizes": {
+        "javascript": 28276
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5669.js"
+      ],
+      "auxiliaryFiles": [
+        "5669.js.map"
+      ],
+      "hash": "7b82f6a65bc417da",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 59399,
+      "sizes": {
+        "javascript": 59399
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5687.js"
+      ],
+      "auxiliaryFiles": [
+        "5687.js.map"
+      ],
+      "hash": "9df6da0b799a26d8",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "736e0f879834cecf",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 146272,
+      "sizes": {
+        "javascript": 146272
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "5861.js"
+      ],
+      "auxiliaryFiles": [
+        "5861.js.map"
+      ],
+      "hash": "3748a14fe06590fc",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 39684,
+      "sizes": {
+        "javascript": 39684
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6130.js"
+      ],
+      "auxiliaryFiles": [
+        "6130.js.map"
+      ],
+      "hash": "50683b1820cc5b46",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 73349,
+      "sizes": {
+        "javascript": 73349
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6178.js"
+      ],
+      "auxiliaryFiles": [
+        "6178.js.map"
+      ],
+      "hash": "60732efae527ca01",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 209580,
+      "sizes": {
+        "javascript": 209580
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6258.js"
+      ],
+      "auxiliaryFiles": [
+        "6258.js.map"
+      ],
+      "hash": "cd0cbc13d4ce83da",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 43808,
+      "sizes": {
+        "javascript": 43808
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6455.js"
+      ],
+      "auxiliaryFiles": [
+        "6455.js.map"
+      ],
+      "hash": "6dbbe0440305753d",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 8032,
+      "sizes": {
+        "javascript": 8032
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6456.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "a8377f5f51fd4f57",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 95093,
+      "sizes": {
+        "javascript": 95093
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6466.js"
+      ],
+      "auxiliaryFiles": [
+        "6466.js.map"
+      ],
+      "hash": "80e893d7f81a34f8",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 175334,
+      "sizes": {
+        "javascript": 175334
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6492.js"
+      ],
+      "auxiliaryFiles": [
+        "6492.js.map"
+      ],
+      "hash": "4005e4ed09a435a5",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 113642,
+      "sizes": {
+        "javascript": 113642
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6676.js"
+      ],
+      "auxiliaryFiles": [
+        "6676.js.map"
+      ],
+      "hash": "d8fc29f54a64edf2",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 234920,
+      "sizes": {
+        "consume-shared": 168,
+        "javascript": 234416,
+        "runtime": 24547,
+        "share-init": 336
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [
+        "main.js.map"
+      ],
+      "hash": "b7e079bde5498f7f",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 147489,
+      "sizes": {
+        "javascript": 147489
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "6925.js"
+      ],
+      "auxiliaryFiles": [
+        "6925.js.map"
+      ],
+      "hash": "91e3dab4626bb689",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 174496,
+      "sizes": {
+        "javascript": 174496
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7005.js"
+      ],
+      "auxiliaryFiles": [
+        "7005.js.map"
+      ],
+      "hash": "fe2b2753937fbede",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 122147,
+      "sizes": {
+        "javascript": 122147
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7201.js"
+      ],
+      "auxiliaryFiles": [
+        "7201.js.map"
+      ],
+      "hash": "1fa719f7b06014bc",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 31115,
+      "sizes": {
+        "javascript": 31115
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7261.js"
+      ],
+      "auxiliaryFiles": [
+        "7261.js.map"
+      ],
+      "hash": "fbc21274f594db62",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 23348,
+      "sizes": {
+        "javascript": 23348
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7326.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "937109f570dbd870",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 1891,
+      "sizes": {
+        "javascript": 1891
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7414.js"
+      ],
+      "auxiliaryFiles": [
+        "7414.js.map"
+      ],
+      "hash": "3ad930fa391c49a5",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 219576,
+      "sizes": {
+        "javascript": 219576
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7463.js"
+      ],
+      "auxiliaryFiles": [
+        "7463.js.map"
+      ],
+      "hash": "fa06e9787c70d74c",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "c2a232c2646a10c7",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 23748,
+      "sizes": {
+        "javascript": 23748
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7584.js"
+      ],
+      "auxiliaryFiles": [
+        "7584.js.map"
+      ],
+      "hash": "f5e299ef60b2059f",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 7092,
+      "sizes": {
+        "javascript": 7092
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7607.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "8cf8595d113d0f03",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 117446,
+      "sizes": {
+        "javascript": 117446
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7717.js"
+      ],
+      "auxiliaryFiles": [
+        "7717.js.map"
+      ],
+      "hash": "df220833a734138e",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 140426,
+      "sizes": {
+        "javascript": 140426
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7737.js"
+      ],
+      "auxiliaryFiles": [
+        "7737.js.map"
+      ],
+      "hash": "2fddbd959bd18367",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 151656,
+      "sizes": {
+        "javascript": 151656
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7739.js"
+      ],
+      "auxiliaryFiles": [
+        "7739.js.map"
+      ],
+      "hash": "b771012e92720a5e",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 217989,
+      "sizes": {
+        "javascript": 217989
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7765.js"
+      ],
+      "auxiliaryFiles": [
+        "7765.js.map"
+      ],
+      "hash": "2fd7e85a86923673",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 382716,
+      "sizes": {
+        "javascript": 382716
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7789.js"
+      ],
+      "auxiliaryFiles": [
+        "7789.js.map"
+      ],
+      "hash": "30dd62b29a41edc7",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 34734,
+      "sizes": {
+        "javascript": 34734
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7820.js"
+      ],
+      "auxiliaryFiles": [
+        "7820.js.map"
+      ],
+      "hash": "5373a6ded607195d",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 119582,
+      "sizes": {
+        "javascript": 119582
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7826.js"
+      ],
+      "auxiliaryFiles": [
+        "7826.js.map"
+      ],
+      "hash": "c038e19215c51c5b",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 121368,
+      "sizes": {
+        "javascript": 121368
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7845.js"
+      ],
+      "auxiliaryFiles": [
+        "7845.js.map"
+      ],
+      "hash": "b3f26e34b93e3d14",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 42642,
+      "sizes": {
+        "javascript": 42642
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "7971.js"
+      ],
+      "auxiliaryFiles": [
+        "7971.js.map"
+      ],
+      "hash": "cffc8fa30d1dfd35",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 24137,
+      "sizes": {
+        "javascript": 24137
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8150.js"
+      ],
+      "auxiliaryFiles": [
+        "8150.js.map"
+      ],
+      "hash": "4a01a8f13e81fd33",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 116548,
+      "sizes": {
+        "javascript": 116548
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8159.js"
+      ],
+      "auxiliaryFiles": [
+        "8159.js.map"
+      ],
+      "hash": "2caf8ffb5bda8874",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 155959,
+      "sizes": {
+        "javascript": 155959
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8201.js"
+      ],
+      "auxiliaryFiles": [
+        "8201.js.map"
+      ],
+      "hash": "5bfc33a704cf4239",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 125492,
+      "sizes": {
+        "javascript": 125492
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8244.js"
+      ],
+      "auxiliaryFiles": [
+        "8244.js.map"
+      ],
+      "hash": "ec6274f983d7df09",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "9743e4410474aa7d",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 149362,
+      "sizes": {
+        "javascript": 149362
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8262.js"
+      ],
+      "auxiliaryFiles": [
+        "8262.js.map"
+      ],
+      "hash": "bc3c99c6540d995a",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 35196,
+      "sizes": {
+        "javascript": 35196
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8361.js"
+      ],
+      "auxiliaryFiles": [
+        "8361.js.map"
+      ],
+      "hash": "a8ada46715c80201",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 142039,
+      "sizes": {
+        "javascript": 142039
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8391.js"
+      ],
+      "auxiliaryFiles": [
+        "8391.js.map"
+      ],
+      "hash": "3537827bac8a8c93",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 205607,
+      "sizes": {
+        "javascript": 205607
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "845.js"
+      ],
+      "auxiliaryFiles": [
+        "845.js.map"
+      ],
+      "hash": "98bb9553536d6b17",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 64306,
+      "sizes": {
+        "consume-shared": 42,
+        "javascript": 64264
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8523.js"
+      ],
+      "auxiliaryFiles": [
+        "8523.js.map"
+      ],
+      "hash": "601a5a08c25ffa7b",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 219297,
+      "sizes": {
+        "javascript": 219297
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8570.js"
+      ],
+      "auxiliaryFiles": [
+        "8570.js.map"
+      ],
+      "hash": "34c92c39916ee675",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 187334,
+      "sizes": {
+        "javascript": 187334
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "87.js"
+      ],
+      "auxiliaryFiles": [
+        "87.js.map"
+      ],
+      "hash": "4d54055129a69e91",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 7097,
+      "sizes": {
+        "javascript": 7097
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8727.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "dd161589b13d76a3",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 540,
+      "sizes": {
+        "javascript": 540
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8828.js"
+      ],
+      "auxiliaryFiles": [
+        "8828.js.map"
+      ],
+      "hash": "d4e219df9cce2701",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 14472,
+      "sizes": {
+        "javascript": 14472
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8860.js"
+      ],
+      "auxiliaryFiles": [
+        "8860.js.map"
+      ],
+      "hash": "611b2fdc0bf4e7da",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 99938,
+      "sizes": {
+        "javascript": 99938
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "8960.js"
+      ],
+      "auxiliaryFiles": [
+        "8960.js.map"
+      ],
+      "hash": "2c4dad8aa216fc86",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 141176,
+      "sizes": {
+        "javascript": 141176
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9010.js"
+      ],
+      "auxiliaryFiles": [
+        "9010.js.map"
+      ],
+      "hash": "f4c62db5f90d0f7d",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 226056,
+      "sizes": {
+        "javascript": 226056
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9124.js"
+      ],
+      "auxiliaryFiles": [
+        "9124.js.map"
+      ],
+      "hash": "d164202cc011c1e9",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 9091,
+      "sizes": {
+        "javascript": 9091
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9182.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "dbee4bcbc079baea",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 20819,
+      "sizes": {
+        "javascript": 20819
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9192.js"
+      ],
+      "auxiliaryFiles": [
+        "9192.js.map"
+      ],
+      "hash": "4b250f081a611138",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 63941,
+      "sizes": {
+        "javascript": 63941
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "921.js"
+      ],
+      "auxiliaryFiles": [
+        "921.js.map"
+      ],
+      "hash": "893fa90b7a82de77",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 175078,
+      "sizes": {
+        "javascript": 175078
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9255.js"
+      ],
+      "auxiliaryFiles": [
+        "9255.js.map"
+      ],
+      "hash": "0a6d07bac819ffc2",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 6855,
+      "sizes": {
+        "javascript": 6855
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9283.js"
+      ],
+      "auxiliaryFiles": [
+        "9283.js.map"
+      ],
+      "hash": "62924c7012e201f9",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 52772,
+      "sizes": {
+        "javascript": 52772
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9313.js"
+      ],
+      "auxiliaryFiles": [
+        "9313.js.map"
+      ],
+      "hash": "afaf436a94025f47",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 83215,
+      "sizes": {
+        "javascript": 83215
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9404.js"
+      ],
+      "auxiliaryFiles": [
+        "9404.js.map"
+      ],
+      "hash": "ac0176c656514d94",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 8365,
+      "sizes": {
+        "javascript": 8365
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9432.js"
+      ],
+      "auxiliaryFiles": [
+        "9432.js.map"
+      ],
+      "hash": "c9c034c5d92772de",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 150863,
+      "sizes": {
+        "javascript": 150863
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9446.js"
+      ],
+      "auxiliaryFiles": [
+        "9446.js.map"
+      ],
+      "hash": "830bab4e2332c54d",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 164777,
+      "sizes": {
+        "javascript": 164777
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9566.js"
+      ],
+      "auxiliaryFiles": [
+        "9566.js.map"
+      ],
+      "hash": "9208bf24d3c7e193",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 29839,
+      "sizes": {
+        "javascript": 29839
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9641.js"
+      ],
+      "auxiliaryFiles": [
+        "9641.js.map"
+      ],
+      "hash": "522e756d8d7b11ab",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 109402,
+      "sizes": {
+        "javascript": 109402
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9735.js"
+      ],
+      "auxiliaryFiles": [
+        "9735.js.map"
+      ],
+      "hash": "41dc2d6971e63de9",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 181298,
+      "sizes": {
+        "javascript": 181298
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9801.js"
+      ],
+      "auxiliaryFiles": [
+        "9801.js.map"
+      ],
+      "hash": "3590278bcbba3e3e",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 83364,
+      "sizes": {
+        "javascript": 83364
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9835.js"
+      ],
+      "auxiliaryFiles": [
+        "9835.js.map"
+      ],
+      "hash": "2adc6febc5650dd0",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 152392,
+      "sizes": {
+        "javascript": 152392
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@kenyaemr/esm-procedure-orders-app",
+        "main"
+      ],
+      "files": [
+        "9981.js"
+      ],
+      "auxiliaryFiles": [
+        "9981.js.map"
+      ],
+      "hash": "1ebb7a6696063264",
+      "childrenByOrder": {}
+    }
+  ]
+}
