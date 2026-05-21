@@ -1,0 +1,846 @@
+{
+  "chunks": [
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 3883,
+      "sizes": {
+        "javascript": 3883
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "107.js"
+      ],
+      "auxiliaryFiles": [
+        "107.js.map"
+      ],
+      "hash": "f07d640771b7bc7f",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 200937,
+      "sizes": {
+        "expose": 42,
+        "javascript": 200601,
+        "runtime": 14675,
+        "share-init": 294
+      },
+      "names": [
+        "path-drc-esm-orders-app"
+      ],
+      "idHints": [],
+      "runtime": [
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "path-drc-esm-orders-app.js"
+      ],
+      "auxiliaryFiles": [
+        "path-drc-esm-orders-app.js.map"
+      ],
+      "hash": "2e7f960cad3fc269",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 3866,
+      "sizes": {
+        "javascript": 3866
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "28.js"
+      ],
+      "auxiliaryFiles": [
+        "28.js.map"
+      ],
+      "hash": "93f0344b9499fb99",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "df71b37e13800813",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "796845b675f36e90",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 84,
+      "sizes": {
+        "consume-shared": 84
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "d9429c5531bf0dd3",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "ab24e9cbc56d7fe7",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 3955,
+      "sizes": {
+        "javascript": 3955
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "456.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "da4140ccc082f60c",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 25608,
+      "sizes": {
+        "javascript": 25608
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "491.js"
+      ],
+      "auxiliaryFiles": [
+        "491.js.map"
+      ],
+      "hash": "e188cd4d82f64978",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 24581,
+      "sizes": {
+        "javascript": 24581
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "537.js"
+      ],
+      "auxiliaryFiles": [
+        "537.js.map"
+      ],
+      "hash": "3a3952c3bcc885a9",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 4588,
+      "sizes": {
+        "javascript": 4588
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "543.js"
+      ],
+      "auxiliaryFiles": [
+        "543.js.map"
+      ],
+      "hash": "8fa201123f5093e3",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 128145,
+      "sizes": {
+        "javascript": 128145
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "548.js"
+      ],
+      "auxiliaryFiles": [
+        "548.js.map"
+      ],
+      "hash": "e173e957623dc435",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 34723,
+      "sizes": {
+        "javascript": 34723
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "571.js"
+      ],
+      "auxiliaryFiles": [
+        "571.js.map"
+      ],
+      "hash": "fbe7abc5747dbccf",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 29620,
+      "sizes": {
+        "javascript": 29620
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "586.js"
+      ],
+      "auxiliaryFiles": [
+        "586.js.map"
+      ],
+      "hash": "3459caec1dee1792",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 3627,
+      "sizes": {
+        "javascript": 3627
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "607.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "3d6d0b8dad2dc972",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 2868037,
+      "sizes": {
+        "javascript": 2868037
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "612.js"
+      ],
+      "auxiliaryFiles": [
+        "612.js.map"
+      ],
+      "hash": "cae7cf323218cd5f",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "5938aa93dd5e4900",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 2201,
+      "sizes": {
+        "javascript": 2201
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "634.js"
+      ],
+      "auxiliaryFiles": [
+        "634.js.map"
+      ],
+      "hash": "8838cffd44c00845",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "dfff78c5137678ad",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 52632,
+      "sizes": {
+        "javascript": 52632
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "687.js"
+      ],
+      "auxiliaryFiles": [
+        "687.js.map"
+      ],
+      "hash": "63d1918c380f93af",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 26267,
+      "sizes": {
+        "javascript": 26267
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "739.js"
+      ],
+      "auxiliaryFiles": [
+        "739.js.map"
+      ],
+      "hash": "f042d7a4f11c2915",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 7120,
+      "sizes": {
+        "javascript": 7120
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "744.js"
+      ],
+      "auxiliaryFiles": [
+        "744.js.map"
+      ],
+      "hash": "db3e874f8c644190",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 250,
+      "sizes": {
+        "javascript": 250
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "820.js"
+      ],
+      "auxiliaryFiles": [
+        "820.js.map"
+      ],
+      "hash": "e31fef394263f3fd",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 314795,
+      "sizes": {
+        "javascript": 314795
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "833.js"
+      ],
+      "auxiliaryFiles": [
+        "833.js.map"
+      ],
+      "hash": "0379e551c9d6bcc6",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 3906,
+      "sizes": {
+        "javascript": 3906
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "881.js"
+      ],
+      "auxiliaryFiles": [
+        "881.js.map"
+      ],
+      "hash": "fef7289976e922ae",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 137481,
+      "sizes": {
+        "javascript": 137481
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "89.js"
+      ],
+      "auxiliaryFiles": [
+        "89.js.map"
+      ],
+      "hash": "e478adc5c016339a",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 4343562,
+      "sizes": {
+        "javascript": 4343562
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "892.js"
+      ],
+      "auxiliaryFiles": [
+        "892.js.map"
+      ],
+      "hash": "eab4f7a16de44bff",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 2188,
+      "sizes": {
+        "javascript": 2188
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "902.js"
+      ],
+      "auxiliaryFiles": [
+        "902.js.map"
+      ],
+      "hash": "93cc9b26f4a3e138",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 205567,
+      "sizes": {
+        "consume-shared": 126,
+        "javascript": 205147,
+        "runtime": 14149,
+        "share-init": 294
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [
+        "main.js.map"
+      ],
+      "hash": "ee76d58cdbccb28f",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 2170,
+      "sizes": {
+        "javascript": 2170
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "928.js"
+      ],
+      "auxiliaryFiles": [
+        "928.js.map"
+      ],
+      "hash": "a5a8e218467c2281",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 254,
+      "sizes": {
+        "javascript": 254
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "932.js"
+      ],
+      "auxiliaryFiles": [
+        "932.js.map"
+      ],
+      "hash": "0613093797eb3d92",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 2176,
+      "sizes": {
+        "javascript": 2176
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "934.js"
+      ],
+      "auxiliaryFiles": [
+        "934.js.map"
+      ],
+      "hash": "eaf5cb8605ed9a71",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 2201,
+      "sizes": {
+        "javascript": 2201
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "943.js"
+      ],
+      "auxiliaryFiles": [
+        "943.js.map"
+      ],
+      "hash": "31873cc196c05bc0",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 24274,
+      "sizes": {
+        "javascript": 24274
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "970.js"
+      ],
+      "auxiliaryFiles": [
+        "970.js.map"
+      ],
+      "hash": "b162bad43b7f8570",
+      "childrenByOrder": {}
+    }
+  ]
+}

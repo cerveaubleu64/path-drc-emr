@@ -16,10 +16,9 @@ services:
       - "./frontend-overrides/openmrs-config.json:/usr/share/nginx/html/openmrs-config.json:ro"
       - "./frontend-overrides/importmap.json:/usr/share/nginx/html/importmap.json:ro"
       - "./frontend-overrides/routes.registry.json:/usr/share/nginx/html/routes.registry.json:ro"
-      - "./frontend-overrides/modules/kenyaemr-esm-procedure-orders-app-4.0.8-pre.53:/usr/share/nginx/html/kenyaemr-esm-procedure-orders-app-4.0.8-pre.53:ro"
-      - "./frontend-overrides/modules/kenyaemr-esm-imaging-orders-app-4.0.8-pre.53:/usr/share/nginx/html/kenyaemr-esm-imaging-orders-app-4.0.8-pre.53:ro"
-      - "./frontend-overrides/modules/kenyaemr-esm-medical-supply-orders-app-4.0.8-pre.53:/usr/share/nginx/html/kenyaemr-esm-medical-supply-orders-app-4.0.8-pre.53:ro"
       - "./frontend-overrides/modules/openmrs-esm-service-queues-app-10.0.2:/usr/share/nginx/html/openmrs-esm-service-queues-app-10.0.2:ro"
+      - "./frontend-overrides/modules/openmrs-esm-appointments-app-10.0.2:/usr/share/nginx/html/openmrs-esm-appointments-app-10.0.2:ro"
+      - "./frontend-overrides/modules/path-drc-esm-orders-app-1.0.0:/usr/share/nginx/html/path-drc-esm-orders-app-1.0.0:ro"
 
   backend:
     build:

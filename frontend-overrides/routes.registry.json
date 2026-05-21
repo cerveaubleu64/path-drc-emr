@@ -3273,336 +3273,84 @@
     ],
     "version": "4.3.0"
   },
-  "@kenyaemr/esm-procedure-orders-app": {
+  "path-drc-esm-orders-app": {
     "$schema": "https://json.openmrs.org/routes.schema.json",
     "backendDependencies": {
-      "fhir2": ">=1.2",
       "webservices.rest": ">=2.24.0"
     },
     "extensions": [
       {
-        "component": "procedureDashboardLink",
-        "name": "procedure-dashboard-link",
-        "slot": "homepage-dashboard-slot",
-        "meta": {
-          "name": "procedure",
-          "title": "procedure",
-          "slot": "procedure-dashboard-slot"
-        }
-      },
-      {
-        "component": "root",
-        "name": "procedure-dashboard-root",
-        "slot": "procedure-dashboard-slot"
-      },
-      {
-        "component": "expressProceduresDashboard",
-        "name": "express-procedures-dashboard",
-        "slot": "express-procedures-dashboard-slot"
-      },
-      {
-        "name": "procedures-ordered-tile-component",
-        "slot": "procedure-tiles-slot",
-        "component": "OrderedTileComponent",
-        "meta": {
-          "name": "proceduresOrderedTileSlot",
-          "title": "Active Orders"
-        }
-      },
-      {
-        "name": "procedures-worklist-tile-component",
-        "slot": "procedure-tiles-slot",
-        "component": "worklistTileComponent",
-        "meta": {
-          "name": "worklisTileSlot",
-          "title": "Worklist"
-        }
-      },
-      {
-        "name": "procedures-referred-tile-component",
-        "slot": "procedure-tiles-slot",
-        "component": "referredOutTileComponent",
-        "meta": {
-          "name": "referredTileSlot",
-          "title": "Referred Out"
-        }
-      },
-      {
-        "name": "procedures-not-done-tile-component",
-        "slot": "procedure-tiles-slot",
-        "component": "notDoneTileComponent",
-        "meta": {
-          "name": "notDoneTileSlot",
-          "title": "Not Done"
-        }
-      },
-      {
-        "name": "procedures-completed-tile-component",
-        "slot": "procedure-tiles-slot",
-        "component": "completedTileComponent",
-        "meta": {
-          "name": "completedTileSlot",
-          "title": "Completed"
-        }
-      },
-      {
-        "name": "procedures-worklist-tab-component",
-        "slot": "procedures-panels-slot",
-        "component": "worklistProceduresTabComponent",
-        "meta": {
-          "name": "proceduresPanelSlot",
-          "title": "Worklist"
-        }
-      },
-      {
-        "name": "procedures-referred-tab-component",
-        "slot": "procedures-panels-slot",
-        "component": "referredProceduresTabComponent",
-        "meta": {
-          "name": "proceduresPanelSlot",
-          "title": "Referred Out"
-        }
-      },
-      {
-        "name": "procedures-not-done-tab-component",
-        "slot": "procedures-panels-slot",
-        "component": "notDoneProceduresTabComponent",
-        "meta": {
-          "name": "proceduresPanelSlot",
-          "title": "Not Done"
-        }
-      },
-      {
-        "name": "procedures-completed-tab-component",
-        "slot": "procedures-panels-slot",
-        "component": "completedProceduresTabComponent",
-        "meta": {
-          "name": "proceduresPanelSlot",
-          "title": "Completed"
-        }
-      },
-      {
-        "name": "procedure-instructions-modal",
-        "component": "procedureInstructionsModalComponent"
-      },
-      {
-        "name": "procedure-reject-reason-modal",
-        "component": "procedureRejectModalComponent"
-      },
-      {
-        "name": "add-procedure-to-worklist-dialog",
-        "component": "addProcedureToWorklistDialogComponent"
-      },
-      {
-        "name": "reject-procedure-order-dialog",
-        "component": "rejectProcedureOrderDialogComponent"
+        "name": "imaging-order-panel",
+        "slot": "order-basket-slot",
+        "component": "imagingOrderPanel",
+        "order": 3
       },
       {
         "name": "procedures-order-panel",
-        "component": "proceduresOrderPanel",
         "slot": "order-basket-slot",
+        "component": "procedureOrderPanel",
         "order": 4
       },
       {
-        "name": "procedure-results-component",
-        "component": "procedureResultsComponent",
-        "slot": "ewf-procedures-results-slot"
-      },
-      {
-        "name": "procedure-ordered-tabs",
-        "component": "procedureOrderedTabs",
-        "slot": "procedure-ordered-tabs-extension"
-      }
-    ],
-    "workspaces": [
-      {
-        "name": "procedure-report-form",
-        "component": "postProcedureResults",
-        "title": "Procedure Report Form",
-        "type": "form"
-      },
-      {
-        "name": "procedure-order-search-patient-workspace",
-        "component": "procedureOrderSearchPatientWorkspace",
-        "title": "Search patient",
-        "type": "other-form",
-        "width": "extra-wide"
-      }
-    ],
-    "modals": [
-      {
-        "name": "print-procedure-report-modal",
-        "component": "printProcedureReportModal"
-      }
-    ],
-    "pages": [
-      {
-        "component": "root",
-        "route": "procedure"
-      }
-    ],
-    "workspaces2": [
-      {
-        "name": "add-procedures-order",
-        "component": "addProceduresOrderWorkspace",
-        "window": "patient-chart-order-basket"
-      }
-    ],
-    "version": "4.0.8-pre.53"
-  },
-  "@kenyaemr/esm-imaging-orders-app": {
-    "$schema": "https://json.openmrs.org/routes.schema.json",
-    "backendDependencies": {
-      "fhir2": ">=1.2",
-      "webservices.rest": ">=2.24.0"
-    },
-    "extensions": [
-      {
-        "component": "imagingOrdersLink",
-        "name": "radiology-dashboard-link",
-        "slot": "homepage-dashboard-slot",
-        "meta": {
-          "name": "imaging-orders",
-          "title": "imaging-orders",
-          "slot": "imaging-dashboard-slot"
-        }
-      },
-      {
-        "component": "root",
-        "name": "imaging-dashboard-root",
-        "slot": "imaging-dashboard-slot"
-      },
-      {
-        "component": "radiologyDashboard",
-        "name": "radiology-dashboard-slot-name",
-        "slot": "express-radiology-dashboard-slot"
-      },
-      {
-        "name": "imaging-order-panel",
-        "component": "imagingOrderPanel",
-        "slot": "order-basket-slot",
-        "order": 3
-      },
-      {
-        "name": "imaging-results-component",
-        "component": "imagingResultsComponent",
-        "slot": "ewf-radiology-and-imaging-results-slot"
-      },
-      {
-        "name": "renal-warning-component",
-        "component": "renalWarningComponent",
-        "slot": "top-of-imaging-order-form-slot",
-        "order": 3
-      },
-      {
-        "name": "dicom-image-viewer",
-        "component": "dicomImageView"
-      }
-    ],
-    "workspaces": [
-      {
-        "name": "add-imaging-order",
-        "type": "order",
-        "component": "addImagingOrderWorkspace",
-        "title": "Add Imaging order"
-      },
-      {
-        "name": "imaging-report-form",
-        "component": "imagingReportForm",
-        "title": "Imaging Report Form",
-        "type": "form",
-        "width": "extra-wide"
-      },
-      {
-        "name": "imaging-review-form",
-        "type": "order",
-        "component": "imagingReviewForm",
-        "title": "Review form"
-      },
-      {
-        "name": "search-patient-workspace",
-        "component": "searchPatientWorkspace",
-        "title": "Search patient",
-        "type": "other-form",
-        "width": "extra-wide"
-      }
-    ],
-    "modals": [
-      {
-        "name": "reject-imaging-order-modal",
-        "component": "rejectImagingOrderModal"
-      },
-      {
-        "name": "add-imaging-to-work-list-modal",
-        "component": "addImagingToWorkListModal"
-      },
-      {
-        "name": "amend-imaging-order-modal",
-        "component": "amendModal"
-      },
-      {
-        "name": "print-preview-Report-modal",
-        "component": "printReportModal"
-      }
-    ],
-    "workspaces2": [
-      {
-        "name": "add-imaging-order",
-        "component": "addImagingOrderWorkspace",
-        "window": "patient-chart-order-basket"
-      },
-      {
-        "name": "imaging-renal-add-lab-order-workspace",
-        "component": "@openmrs/esm-patient-tests-app#exportedAddLabOrderWorkspace",
-        "window": "imaging-renal-lab-order-window"
-      },
-      {
-        "name": "imaging-renal-order-basket-workspace",
-        "component": "@openmrs/esm-patient-orders-app#exportedOrderBasketWorkspace",
-        "window": "imaging-renal-lab-order-window"
-      }
-    ],
-    "workspaceWindows2": [
-      {
-        "name": "imaging-renal-lab-order-window",
-        "group": "imaging-renal-lab-order-group"
-      }
-    ],
-    "workspaceGroups2": [
-      {
-        "name": "imaging-renal-lab-order-group",
-        "scope": "/home/imaging-orders"
-      }
-    ],
-    "version": "4.0.8-pre.53"
-  },
-  "@kenyaemr/esm-medical-supply-orders-app": {
-    "$schema": "https://json.openmrs.org/routes.schema.json",
-    "backendDependencies": {
-      "fhir2": ">=1.2",
-      "webservices.rest": ">=2.24.0"
-    },
-    "extensions": [
-      {
         "name": "medical-supply-order-panel",
-        "component": "medicalSupplyOrderPanel",
         "slot": "order-basket-slot",
+        "component": "medicalSupplyOrderPanel",
         "order": 5
-      }
-    ],
-    "pages": [
+      },
       {
-        "component": "root",
-        "route": "medicalsupply"
+        "name": "radiology-and-imaging-dashboard-link",
+        "slot": "homepage-dashboard-slot",
+        "component": "radiologyDashboardLink",
+        "meta": {
+          "name": "radiology-and-imaging",
+          "slot": "radiology-and-imaging-dashboard-slot",
+          "title": "Radiology and Imaging"
+        },
+        "online": true,
+        "offline": true,
+        "order": 20
+      },
+      {
+        "name": "procedures-dashboard-link",
+        "slot": "homepage-dashboard-slot",
+        "component": "proceduresDashboardLink",
+        "meta": {
+          "name": "procedures",
+          "slot": "procedures-dashboard-slot",
+          "title": "Procedures"
+        },
+        "online": true,
+        "offline": true,
+        "order": 21
+      },
+      {
+        "name": "radiology-and-imaging-dashboard-root",
+        "slot": "radiology-and-imaging-dashboard-slot",
+        "component": "radiologyDashboardRoot"
+      },
+      {
+        "name": "procedures-dashboard-root",
+        "slot": "procedures-dashboard-slot",
+        "component": "proceduresDashboardRoot"
       }
     ],
     "workspaces2": [
+      {
+        "name": "add-imaging-order",
+        "component": "addImagingOrderWorkspace",
+        "window": "patient-chart-order-basket"
+      },
+      {
+        "name": "add-procedure-order",
+        "component": "addProcedureOrderWorkspace",
+        "window": "patient-chart-order-basket"
+      },
       {
         "name": "add-medical-supply-order",
         "component": "addMedicalSupplyOrderWorkspace",
         "window": "patient-chart-order-basket"
       }
     ],
-    "version": "4.0.8-pre.53"
+    "version": "1.0.0"
   }
 }
