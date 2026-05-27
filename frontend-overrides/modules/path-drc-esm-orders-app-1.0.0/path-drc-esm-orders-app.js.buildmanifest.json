@@ -271,9 +271,9 @@
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: default)",
-      "size": 24581,
+      "size": 24687,
       "sizes": {
-        "javascript": 24581
+        "javascript": 24687
       },
       "names": [],
       "idHints": [
@@ -289,7 +289,7 @@
       "auxiliaryFiles": [
         "537.js.map"
       ],
-      "hash": "1d9e30cf2f521fc3",
+      "hash": "25f0b88dda12414e",
       "childrenByOrder": {}
     },
     {
