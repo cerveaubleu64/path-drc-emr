@@ -67,6 +67,12 @@ server {
     set $frontend http://frontend;
     rewrite ^/openmrs/spa/(.*) /$1 break;
     proxy_pass $frontend;
+
+    # Disable upstream compression so sub_filter can rewrite the HTML body.
+    proxy_set_header Accept-Encoding "";
+    sub_filter_types text/html;
+    sub_filter_once on;
+    sub_filter '</head>' '<script src="/openmrs/spa/login-illustration.js" defer></script></head>';
   }
 
   location /openmrs {
