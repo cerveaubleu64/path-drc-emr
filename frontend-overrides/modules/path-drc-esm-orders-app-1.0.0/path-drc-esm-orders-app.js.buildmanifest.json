@@ -297,9 +297,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 6478,
+      "size": 8585,
       "sizes": {
-        "javascript": 6478
+        "javascript": 8585
       },
       "names": [],
       "idHints": [],
@@ -312,7 +312,7 @@
       "auxiliaryFiles": [
         "543.js.map"
       ],
-      "hash": "7444f88cf078bce8",
+      "hash": "508222e4b2fda576",
       "childrenByOrder": {}
     },
     {
@@ -771,10 +771,10 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 207457,
+      "size": 209564,
       "sizes": {
         "consume-shared": 126,
-        "javascript": 207037,
+        "javascript": 209144,
         "runtime": 14149,
         "share-init": 294
       },
@@ -791,7 +791,7 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "462d235c9fa61b60",
+      "hash": "108a366a0b1f32ab",
       "childrenByOrder": {}
     },
     {
