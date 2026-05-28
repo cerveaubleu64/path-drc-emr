@@ -5,9 +5,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 3883,
+      "size": 13244,
       "sizes": {
-        "javascript": 3883
+        "javascript": 13244
       },
       "names": [],
       "idHints": [],
@@ -21,7 +21,7 @@
       "auxiliaryFiles": [
         "107.js.map"
       ],
-      "hash": "e1eb56cc9726ff5a",
+      "hash": "a5741afb2facf9bf",
       "childrenByOrder": {}
     },
     {
@@ -45,7 +45,7 @@
       "auxiliaryFiles": [
         "140.js.map"
       ],
-      "hash": "5f3dc29f09c3c651",
+      "hash": "0626db3fec70def6",
       "childrenByOrder": {}
     },
     {
@@ -69,7 +69,7 @@
       "auxiliaryFiles": [
         "172.js.map"
       ],
-      "hash": "251356a0389d6cdf",
+      "hash": "83756db160137a93",
       "childrenByOrder": {}
     },
     {
@@ -97,7 +97,7 @@
       "auxiliaryFiles": [
         "path-drc-esm-orders-app.js.map"
       ],
-      "hash": "28a7076563c203d5",
+      "hash": "9fd4aee01fac9603",
       "childrenByOrder": {}
     },
     {
@@ -105,9 +105,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 3866,
+      "size": 13225,
       "sizes": {
-        "javascript": 3866
+        "javascript": 13225
       },
       "names": [],
       "idHints": [],
@@ -121,7 +121,7 @@
       "auxiliaryFiles": [
         "28.js.map"
       ],
-      "hash": "4673d599ebe97c15",
+      "hash": "47f4ab0855007a5d",
       "childrenByOrder": {}
     },
     {
@@ -213,7 +213,7 @@
       "auxiliaryFiles": [
         "433.js.map"
       ],
-      "hash": "8a11ce67f801014e",
+      "hash": "78ffd7128ac4f6e2",
       "childrenByOrder": {}
     },
     {
@@ -293,9 +293,9 @@
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: default)",
-      "size": 24687,
+      "size": 24937,
       "sizes": {
-        "javascript": 24687
+        "javascript": 24937
       },
       "names": [],
       "idHints": [
@@ -311,7 +311,7 @@
       "auxiliaryFiles": [
         "537.js.map"
       ],
-      "hash": "25f0b88dda12414e",
+      "hash": "e0508dfb929b17ba",
       "childrenByOrder": {}
     },
     {
@@ -334,7 +334,7 @@
       "auxiliaryFiles": [
         "543.js.map"
       ],
-      "hash": "b58e4f7b039da70b",
+      "hash": "ee36717ce73e0167",
       "childrenByOrder": {}
     },
     {
@@ -362,33 +362,6 @@
         "548.js.map"
       ],
       "hash": "e173e957623dc435",
-      "childrenByOrder": {}
-    },
-    {
-      "type": "chunk",
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "reason": "split chunk (cache group: defaultVendors)",
-      "size": 2887103,
-      "sizes": {
-        "javascript": 2887103
-      },
-      "names": [],
-      "idHints": [
-        "vendors"
-      ],
-      "runtime": [
-        "main",
-        "path-drc-esm-orders-app"
-      ],
-      "files": [
-        "556.js"
-      ],
-      "auxiliaryFiles": [
-        "556.js.map"
-      ],
-      "hash": "f22926b2d891a9a5",
       "childrenByOrder": {}
     },
     {
@@ -513,6 +486,33 @@
     },
     {
       "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 2887103,
+      "sizes": {
+        "javascript": 2887103
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "640.js"
+      ],
+      "auxiliaryFiles": [
+        "640.js.map"
+      ],
+      "hash": "efb62b45360eac06",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
       "rendered": false,
       "initial": false,
       "entry": false,
@@ -558,7 +558,7 @@
       "auxiliaryFiles": [
         "739.js.map"
       ],
-      "hash": "f042d7a4f11c2915",
+      "hash": "a49fc60b4d89dae3",
       "childrenByOrder": {}
     },
     {
@@ -640,9 +640,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 3906,
+      "size": 13271,
       "sizes": {
-        "javascript": 3906
+        "javascript": 13271
       },
       "names": [],
       "idHints": [],
@@ -656,7 +656,7 @@
       "auxiliaryFiles": [
         "881.js.map"
       ],
-      "hash": "373015c71373f6da",
+      "hash": "a450c17c80e11c5f",
       "childrenByOrder": {}
     },
     {
@@ -710,7 +710,7 @@
       "auxiliaryFiles": [
         "892.js.map"
       ],
-      "hash": "c7a48b3343cbb3a8",
+      "hash": "6acea33ad71c54f3",
       "childrenByOrder": {}
     },
     {
@@ -734,7 +734,7 @@
       "auxiliaryFiles": [
         "901.js.map"
       ],
-      "hash": "21e83e55c90ed906",
+      "hash": "0707260b73708e54",
       "childrenByOrder": {}
     },
     {
@@ -785,7 +785,7 @@
       "auxiliaryFiles": [
         "906.js.map"
       ],
-      "hash": "af194c684b19af28",
+      "hash": "9865b9d7299e077b",
       "childrenByOrder": {}
     },
     {
@@ -813,7 +813,7 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "4386b4dc00bb9dd5",
+      "hash": "56ff97b7add23dd1",
       "childrenByOrder": {}
     },
     {
