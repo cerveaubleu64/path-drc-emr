@@ -29,14 +29,36 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 31914,
+      "size": 6544,
       "sizes": {
-        "javascript": 31914
+        "javascript": 6544
       },
       "names": [],
-      "idHints": [
-        ""
+      "idHints": [],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
       ],
+      "files": [
+        "140.js"
+      ],
+      "auxiliaryFiles": [
+        "140.js.map"
+      ],
+      "hash": "5f3dc29f09c3c651",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 37537,
+      "sizes": {
+        "javascript": 37537
+      },
+      "names": [],
+      "idHints": [],
       "runtime": [
         "main",
         "path-drc-esm-orders-app"
@@ -47,7 +69,7 @@
       "auxiliaryFiles": [
         "172.js.map"
       ],
-      "hash": "75727d82c3f4e768",
+      "hash": "251356a0389d6cdf",
       "childrenByOrder": {}
     },
     {
@@ -297,9 +319,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 8730,
+      "size": 8854,
       "sizes": {
-        "javascript": 8730
+        "javascript": 8854
       },
       "names": [],
       "idHints": [],
@@ -312,7 +334,7 @@
       "auxiliaryFiles": [
         "543.js.map"
       ],
-      "hash": "b1ab650766a2aa29",
+      "hash": "b58e4f7b039da70b",
       "childrenByOrder": {}
     },
     {
@@ -745,9 +767,9 @@
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: default)",
-      "size": 55172,
+      "size": 75422,
       "sizes": {
-        "javascript": 55172
+        "javascript": 75422
       },
       "names": [],
       "idHints": [
@@ -763,7 +785,7 @@
       "auxiliaryFiles": [
         "906.js.map"
       ],
-      "hash": "3254fcd9156bba6b",
+      "hash": "af194c684b19af28",
       "childrenByOrder": {}
     },
     {
@@ -771,10 +793,10 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 209709,
+      "size": 209833,
       "sizes": {
         "consume-shared": 126,
-        "javascript": 209289,
+        "javascript": 209413,
         "runtime": 14149,
         "share-init": 294
       },
@@ -791,7 +813,7 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "b939baa41cb59dcd",
+      "hash": "4386b4dc00bb9dd5",
       "childrenByOrder": {}
     },
     {

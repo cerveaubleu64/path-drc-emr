@@ -3340,6 +3340,10 @@
       {
         "name": "path-drc-reject-with-reason-modal",
         "component": "rejectWithReasonModal"
+      },
+      {
+        "name": "path-drc-print-report-modal",
+        "component": "printReportModal"
       }
     ],
     "workspaces2": [
