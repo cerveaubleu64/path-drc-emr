@@ -53,9 +53,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 37537,
+      "size": 43523,
       "sizes": {
-        "javascript": 37537
+        "javascript": 43523
       },
       "names": [],
       "idHints": [],
@@ -69,7 +69,7 @@
       "auxiliaryFiles": [
         "172.js.map"
       ],
-      "hash": "83756db160137a93",
+      "hash": "73efa8e0a57d527f",
       "childrenByOrder": {}
     },
     {
@@ -126,6 +126,33 @@
     },
     {
       "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 25950,
+      "sizes": {
+        "javascript": 25950
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "302.js"
+      ],
+      "auxiliaryFiles": [
+        "302.js.map"
+      ],
+      "hash": "c500a1427788e680",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
       "rendered": false,
       "initial": false,
       "entry": false,
@@ -167,6 +194,33 @@
       "files": [],
       "auxiliaryFiles": [],
       "hash": "796845b675f36e90",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 90613,
+      "sizes": {
+        "javascript": 90613
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "369.js"
+      ],
+      "auxiliaryFiles": [
+        "369.js.map"
+      ],
+      "hash": "f9bbd1464db7f8d7",
       "childrenByOrder": {}
     },
     {
@@ -292,33 +346,6 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "reason": "split chunk (cache group: default)",
-      "size": 24937,
-      "sizes": {
-        "javascript": 24937
-      },
-      "names": [],
-      "idHints": [
-        ""
-      ],
-      "runtime": [
-        "main",
-        "path-drc-esm-orders-app"
-      ],
-      "files": [
-        "537.js"
-      ],
-      "auxiliaryFiles": [
-        "537.js.map"
-      ],
-      "hash": "e0508dfb929b17ba",
-      "childrenByOrder": {}
-    },
-    {
-      "type": "chunk",
-      "rendered": true,
-      "initial": false,
-      "entry": false,
       "size": 8854,
       "sizes": {
         "javascript": 8854
@@ -334,7 +361,7 @@
       "auxiliaryFiles": [
         "543.js.map"
       ],
-      "hash": "ee36717ce73e0167",
+      "hash": "bf56b443c8cb0807",
       "childrenByOrder": {}
     },
     {
@@ -508,7 +535,7 @@
       "auxiliaryFiles": [
         "640.js.map"
       ],
-      "hash": "efb62b45360eac06",
+      "hash": "8296d24bd5b76e22",
       "childrenByOrder": {}
     },
     {
@@ -606,7 +633,7 @@
       "auxiliaryFiles": [
         "820.js.map"
       ],
-      "hash": "66c8567d83c356b4",
+      "hash": "e3ca0135709f6d91",
       "childrenByOrder": {}
     },
     {
@@ -758,34 +785,7 @@
       "auxiliaryFiles": [
         "902.js.map"
       ],
-      "hash": "93cc9b26f4a3e138",
-      "childrenByOrder": {}
-    },
-    {
-      "type": "chunk",
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "reason": "split chunk (cache group: default)",
-      "size": 75422,
-      "sizes": {
-        "javascript": 75422
-      },
-      "names": [],
-      "idHints": [
-        ""
-      ],
-      "runtime": [
-        "main",
-        "path-drc-esm-orders-app"
-      ],
-      "files": [
-        "906.js"
-      ],
-      "auxiliaryFiles": [
-        "906.js.map"
-      ],
-      "hash": "9865b9d7299e077b",
+      "hash": "2a57e8b6e4de10e4",
       "childrenByOrder": {}
     },
     {
@@ -813,7 +813,7 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "56ff97b7add23dd1",
+      "hash": "0ec84960d2bbeaff",
       "childrenByOrder": {}
     },
     {
@@ -837,7 +837,7 @@
       "auxiliaryFiles": [
         "928.js.map"
       ],
-      "hash": "a5a8e218467c2281",
+      "hash": "0530b80bf25f332e",
       "childrenByOrder": {}
     },
     {
@@ -861,7 +861,7 @@
       "auxiliaryFiles": [
         "932.js.map"
       ],
-      "hash": "bc5f68f46f92528f",
+      "hash": "c0e3bc85fddf8a74",
       "childrenByOrder": {}
     },
     {
@@ -885,7 +885,7 @@
       "auxiliaryFiles": [
         "934.js.map"
       ],
-      "hash": "eaf5cb8605ed9a71",
+      "hash": "ae33c87a85bc24ab",
       "childrenByOrder": {}
     },
     {
