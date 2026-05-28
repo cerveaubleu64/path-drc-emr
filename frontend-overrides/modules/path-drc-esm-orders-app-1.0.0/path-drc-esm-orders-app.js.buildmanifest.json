@@ -27,6 +27,32 @@
     {
       "type": "chunk",
       "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 31914,
+      "sizes": {
+        "javascript": 31914
+      },
+      "names": [],
+      "idHints": [
+        ""
+      ],
+      "runtime": [
+        "main",
+        "path-drc-esm-orders-app"
+      ],
+      "files": [
+        "172.js"
+      ],
+      "auxiliaryFiles": [
+        "172.js.map"
+      ],
+      "hash": "75727d82c3f4e768",
+      "childrenByOrder": {}
+    },
+    {
+      "type": "chunk",
+      "rendered": true,
       "initial": true,
       "entry": true,
       "size": 200937,
@@ -218,32 +244,6 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 30455,
-      "sizes": {
-        "javascript": 30455
-      },
-      "names": [],
-      "idHints": [
-        ""
-      ],
-      "runtime": [
-        "main",
-        "path-drc-esm-orders-app"
-      ],
-      "files": [
-        "459.js"
-      ],
-      "auxiliaryFiles": [
-        "459.js.map"
-      ],
-      "hash": "adf9bc5c001b58b6",
-      "childrenByOrder": {}
-    },
-    {
-      "type": "chunk",
-      "rendered": true,
-      "initial": false,
-      "entry": false,
       "size": 25608,
       "sizes": {
         "javascript": 25608
@@ -297,9 +297,9 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 8585,
+      "size": 8730,
       "sizes": {
-        "javascript": 8585
+        "javascript": 8730
       },
       "names": [],
       "idHints": [],
@@ -312,7 +312,7 @@
       "auxiliaryFiles": [
         "543.js.map"
       ],
-      "hash": "508222e4b2fda576",
+      "hash": "b1ab650766a2aa29",
       "childrenByOrder": {}
     },
     {
@@ -745,9 +745,9 @@
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: default)",
-      "size": 50788,
+      "size": 55172,
       "sizes": {
-        "javascript": 50788
+        "javascript": 55172
       },
       "names": [],
       "idHints": [
@@ -763,7 +763,7 @@
       "auxiliaryFiles": [
         "906.js.map"
       ],
-      "hash": "8dddf1037467248c",
+      "hash": "3254fcd9156bba6b",
       "childrenByOrder": {}
     },
     {
@@ -771,10 +771,10 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 209564,
+      "size": 209709,
       "sizes": {
         "consume-shared": 126,
-        "javascript": 209144,
+        "javascript": 209289,
         "runtime": 14149,
         "share-init": 294
       },
@@ -791,7 +791,7 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "108a366a0b1f32ab",
+      "hash": "b939baa41cb59dcd",
       "childrenByOrder": {}
     },
     {

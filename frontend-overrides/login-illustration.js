@@ -31,7 +31,9 @@
 
   function update() {
     if (!document.body) return;
-    var onLogin = /\/login(\b|\/|$)/.test(window.location.pathname);
+    // Only the credential form (/login or /login/login). Excludes the
+    // location picker (/login/location) and confirm (/login/confirm).
+    var onLogin = /\/login\/?$/.test(window.location.pathname);
     document.body.classList.toggle(BODY_CLASS, onLogin);
   }
 
