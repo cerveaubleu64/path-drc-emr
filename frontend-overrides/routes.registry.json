@@ -3324,6 +3324,22 @@
         "order": 21
       },
       {
+        "name": "radiology-imaging-patient-dashboard-link",
+        "slot": "patient-chart-dashboard-slot",
+        "component": "radiologyImagingPatientDashboardLink",
+        "meta": {
+          "slot": "patient-chart-radiology-imaging-slot",
+          "path": "radiology-imaging",
+          "title": "Radiologie et Imagérie"
+        },
+        "order": 4.5
+      },
+      {
+        "name": "radiology-imaging-patient-dashboard",
+        "slot": "patient-chart-radiology-imaging-slot",
+        "component": "imagingPatientDashboard"
+      },
+      {
         "name": "radiology-and-imaging-dashboard-root",
         "slot": "radiology-and-imaging-dashboard-slot",
         "component": "radiologyDashboardRoot"
