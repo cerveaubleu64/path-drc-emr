@@ -58,6 +58,10 @@ COPY --from=dev /openmrs/distribution/openmrs_modules /openmrs/distribution/open
 COPY --from=dev /openmrs/distribution/openmrs_owas /openmrs/distribution/openmrs_owas
 COPY --from=dev /openmrs/distribution/openmrs_config /openmrs/distribution/openmrs_config
 
+# Overlay local Initializer configuration (custom order types + orderable concept
+# sets powering the 5-category Order Basket). Merges alongside the content packages.
+COPY ./distro/configuration/. /openmrs/distribution/openmrs_config/
+
 # Copy billing logo into image
 RUN mkdir -p /openmrs/assets
 COPY ./frontend/assets/logo.png /openmrs/assets/logo.png

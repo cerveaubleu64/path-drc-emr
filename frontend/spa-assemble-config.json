@@ -28,7 +28,7 @@
     "@openmrs/esm-patient-lists-app": "latest",
     "@openmrs/esm-patient-medications-app": "latest",
     "@openmrs/esm-patient-notes-app": "latest",
-    "@openmrs/esm-patient-orders-app": "latest",
+    "@openmrs/esm-patient-orders-app": "12.2.1",
     "@openmrs/esm-patient-programs-app": "latest",
     "@openmrs/esm-patient-registration-app": "latest",
     "@openmrs/esm-patient-search-app": "latest",
