@@ -26,7 +26,22 @@ RUN --mount=type=cache,target=/root/.cache/node/corepack \
     if [ "$i" = "3" ]; then exit 1; fi; \
     echo "yarn install attempt $i failed, retrying..."; sleep 10; \
   done
-RUN yarn workspace @openmrs/esm-patient-orders-app build
+RUN --mount=type=cache,target=/root/.cache/node/corepack \
+  --mount=type=cache,target=/build/.yarn/cache \
+  for i in 1 2 3; do \
+    yarn workspace @openmrs/esm-patient-orders-app build && break; \
+    if [ "$i" = "3" ]; then exit 1; fi; \
+    echo "build attempt $i failed, retrying..."; sleep 10; \
+  done
+
+# Pack the built app as an npm tarball (package.json + dist only) so the
+# assemble step can consume it like any registry package. Dependency fields are
+# stripped: assemble only unpacks the tarball, it never installs dependencies,
+# and the monorepo's workspace: specifiers would trip up npm pack.
+RUN mkdir -p /pack /packs && \
+  node -e "const p=require('/build/packages/esm-patient-orders-app/package.json'); delete p.dependencies; delete p.devDependencies; delete p.peerDependencies; delete p.scripts; require('fs').writeFileSync('/pack/package.json', JSON.stringify(p, null, 2));" && \
+  cp -r packages/esm-patient-orders-app/dist /pack/dist && \
+  cd /pack && npm pack --pack-destination /packs
 
 #--------------------------------------------
 # Custom Orders App Stage
@@ -52,7 +67,18 @@ RUN --mount=type=cache,target=/root/.cache/node/corepack \
     if [ "$i" = "3" ]; then exit 1; fi; \
     echo "yarn install attempt $i failed, retrying..."; sleep 10; \
   done
-RUN yarn build
+RUN --mount=type=cache,target=/root/.cache/node/corepack \
+  --mount=type=cache,target=/root/.yarn/berry/cache \
+  for i in 1 2 3; do \
+    yarn build && break; \
+    if [ "$i" = "3" ]; then exit 1; fi; \
+    echo "build attempt $i failed, retrying..."; sleep 10; \
+  done
+
+RUN mkdir -p /pack /packs && \
+  node -e "const p=require('/build/package.json'); delete p.dependencies; delete p.devDependencies; delete p.peerDependencies; delete p.scripts; require('fs').writeFileSync('/pack/package.json', JSON.stringify(p, null, 2));" && \
+  cp -r dist /pack/dist && \
+  cd /pack && npm pack --pack-destination /packs
 
 #--------------------------------------------
 # Dev Stage - Assembles and Builds Frontend
@@ -70,6 +96,12 @@ COPY spa-build-config.json .
 ARG CACHE_BUST
 RUN mkdir -p configuration
 COPY ./configuration/*.json configuration
+
+# Local npm tarballs referenced by spa-assemble-config.json; the assemble step
+# unpacks them and registers them in importmap.json / routes.registry.json
+# itself, so no manual patching is needed.
+COPY --from=orders_app_fork /packs/*.tgz ./
+COPY --from=custom_orders_app /packs/*.tgz ./
 
 # Be resilient to flaky networks: npm retries with generous timeouts, a shared
 # npm cache across builds (BuildKit cache mount), and up to 3 attempts per step
@@ -92,27 +124,10 @@ RUN --mount=type=cache,target=/root/.npm \
   done
 RUN if [ ! -f ./spa/index.html ]; then echo 'Build failed. Please check the logs above for details. This may have happened because of an update to a library that OpenMRS depends on.'; ls -al ./spa; exit 1; fi
 
-# Replace the stock esm-patient-orders-app with our fork build (same importmap
-# path, so no importmap change is needed). The `test -d` guard fails the build
-# loudly if the version pinned in spa-assemble-config.json drifts from the
-# fork branch base declared in the orders_app_fork stage above.
-RUN test -d ./spa/openmrs-esm-patient-orders-app-12.2.1 && rm -rf ./spa/openmrs-esm-patient-orders-app-12.2.1/*
-COPY --from=orders_app_fork /build/packages/esm-patient-orders-app/dist/ ./spa/openmrs-esm-patient-orders-app-12.2.1/
-
-# Add the custom cerveaubleu-drc-esm-orders-app to the assembled SPA and
-# register it in the importmap and routes registry.
-COPY --from=custom_orders_app /build/dist/ ./spa/cerveaubleu-drc-esm-orders-app-1.0.0/
-RUN node -e "\
-const fs = require('fs'); \
-const APP = 'cerveaubleu-drc-esm-orders-app'; \
-const DIR = APP + '-1.0.0'; \
-const im = JSON.parse(fs.readFileSync('./spa/importmap.json', 'utf8')); \
-im.imports[APP] = './' + DIR + '/' + APP + '.js'; \
-fs.writeFileSync('./spa/importmap.json', JSON.stringify(im, null, 2)); \
-const reg = JSON.parse(fs.readFileSync('./spa/routes.registry.json', 'utf8')); \
-reg[APP] = JSON.parse(fs.readFileSync('./spa/' + DIR + '/routes.json', 'utf8')); \
-fs.writeFileSync('./spa/routes.registry.json', JSON.stringify(reg, null, 2)); \
-console.log('registered', APP);"
+# Sanity check: the two locally-packed apps must have been picked up by the
+# assemble step (fails loudly if a version pinned in spa-assemble-config.json
+# drifts from what the build stages produce).
+RUN test -d ./spa/openmrs-esm-patient-orders-app-12.2.1 && test -d ./spa/cerveaubleu-drc-esm-orders-app-1.0.0
 
 #--------------------------------------------
 # Runtime Stage - Published Image
